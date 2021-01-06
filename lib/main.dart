@@ -5,10 +5,10 @@ void main() {
   runApp(MaterialApp(
     theme: ThemeData(
       brightness: Brightness.light,
-      primarySwatch: Colors.deepOrange,
+      primarySwatch: Colors.blue,
+      scaffoldBackgroundColor: Colors.white,
 
       // Define the default font family.
-      fontFamily: 'Georgia',
 
       // Define the default TextTheme. Use this to specify the default
       // text styling for headlines, titles, bodies of text, and more.
